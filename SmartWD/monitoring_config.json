@@ -1,0 +1,27 @@
+{
+    "processes": [
+        {
+            "name": "notepad.exe",
+            "memory_threshold_mb": 200,
+            "cpu_threshold_percent": 80,
+            "thread_threshold": 50,
+            "handle_threshold": 150
+        },
+        {
+            "name": "msedge.exe",
+            "memory_threshold_mb": 200,
+            "cpu_threshold_percent": 90,
+            "thread_threshold": 60,
+            "handle_threshold": 200
+        }
+    ],
+    "kafka": {
+        "topic": "my_kafka_topic"
+    },
+    "oracle": {
+        "host": "localhost",
+        "port": 1521,
+        "user": "oracle_user",
+        "password": "oracle_password"
+    }
+}

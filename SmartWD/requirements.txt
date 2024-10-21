@@ -1,0 +1,4 @@
+# Core libraries
+psutil==5.9.5             # For process monitoring (CPU, memory, threads, handles)
+kafka-python==2.0.2       # For Kafka monitoring
+cx_Oracle==8.3.0          # For Oracle database interaction
